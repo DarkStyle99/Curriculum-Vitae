@@ -4,86 +4,138 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Curriculum Vitae</title>
-    <link rel="stylesheet" href="style.css"
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Jacqueline Vanessa Fuentes Quijano</h1>
-        <p>Diseñadora Grafica</p>
-        <p>Ubicación: Ciudad del Carmen, Campeche, México</p>
-        <nav>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="portafolio.html">Portafolio</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+    <header class="header">
+        <div class= "menu container">
+            <a href="#" class="logo" >logo</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="Image\menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="portafolio.html">Portafolio</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-content container">
+            <div class="header.txt">
+                <spam>Soy</spam>
+                <h1>Diseñadora Gráfica</h1>
+            </div>
+        </div>
+    
+    <section class="about container">
 
-    <section id="experiencia">
-        <h2>Experiencia Laboral</h2>
+        <div class="about-img">
+        <img src="Image\Mi perfil.png" alt="Foto de Perfil">
+    </div>
 
-        <h3>Diseñador Gráfico</h3>
-        <p>Tienda Pesitos Chic, Ciudad del Carmen</p>
-        <p>Fecha: 2023 - 20XX</p>
-        <ul>
-            <li>Creación en diseño de Página Web.</li>
-            <li>Administradora de Página de Facebook y publicidad</li>
-        </ul>
-
-        <h3>Diseñador Gráfico</h3>
-        <p>Empresa Deg, Ciudad del Carmen</p>
-        <p>Fecha: 2023 - 20XX</p>
-        <ul>
-            <li>Creación en diseño de Página Web y mantenimiento de la misma</li>
-        </ul>
-
-        <h3>Diseñador Gráfico</h3>
-        <p>Empresa GTSC, Ciudad del Carmen</p>
-        <p>Fecha: 2022 - 20XX</p>
-        <ul>
-            <li>Creación en diseño de Página Web.</li>
-            <li>Administradora de Página de Facebook y cuenta de Instagram.</li>
-        </ul>
-
+    <div class="about-txt">
+        <h2>Sobre mí</h2>
+        <p>
+            Mi nombre es Jacqueline Vanessa Fuentes y soy estudiante de 4to semestre en Ingeniería en diseño multimedia de la Universidad Autónoma del Carmen, en Ciudad del Carmen Campehe. Aspira a tener un trabajo de tiempo parcial en lo que culmina sus estudios, para poder adquirir conocimientos y expandirse en el campo laboral
+            <br>
+            <br>
+            En cuanto a mi personalidad me gusta ayudar a la gente, soy creativa, responsable, busco soluciones, trato a todos con respeto, soy seria en mis trabajos, participo en el comite organizador de mi facultad formando parte de los eventos que se llevan a cabo y en el proceso del mismo, se ilustrar, así como crear páginas web, manejar blender, hacer animaciones 2D
+        </p>
+        <div class="butons">
+                <a href="portafolio.html" class="btn-1">Portafolio</a>
+                <a href="contacto.html" class="btn-1">Contacto</a>
+            </div>
+        </div>
     </section>
 
-    <section id="educacion">
-        <h2>Educación</h2>
+    <main class="datos-container">
+        <h2>Datos Profesionales</h2>
         
-        <h3>Primaria</h3>
-        <p>2009 - 2014</p>
-        <p>Aranzazu | San Luis Potosí</p>
-    
-        <h3>Secundaria</h3>
-        <p>2015 - 2018</p>
-        <p>Manuel L. Lazcano | San Luis Potosí</p>
-    
-        <h3>Preparatoria</h3>
-        <p>2018 - 2021</p>
-        <p>Universidad del Valle de México (UVM) | San Luis Potosí</p>
-    
-        <h3>Universidad</h3>
-        <p>2022 - Actualidad</p>
-        <p>Ingeniería en Diseño Multimedia | 4to semestre</p>
-        <p>Universidad Autónoma del Carmen (UNACAR) | Ciudad del Carmen</p>
-    </section>
+        <div class="datos-content">
 
-    <section id="habilidades">
-        <h2>Habilidades</h2>
-        <ul>
-            <li>Diseño Gráfico: Adobe Photoshop, Illustrator, InDesign</li>
-            <li>Diseño Web: HTML, CSS</li>
-            <li>Edición de Video: Filmora, Clipchamp</li>
-            <li>Ilustración Digital: Tabletas gráficas, creatividad en personajes</li>
-            <li>Animación: Krita, Ibis PaintX Blender</li>
-            <li>Escritora </li>
-        </ul>
-    </section>
+            <div class="datos-1">
+                <div class="datos-txt">
+                    <span>Educación</span>
+                        <h3>Primaria</h3>
+                            <p>2009 - 2014</p>
+                            <p>Aranzazu | San Luis Potosí</p>
+    
+                        <h3>Secundaria</h3>
+                            <p>2015 - 2018</p>
+                            <p>Manuel L. Lazcano | San Luis Potosí</p>
+    
+                        <h3>Preparatoria</h3>
+                            <p>2018 - 2021</p>
+                            <p>Universidad del Valle de México (UVM) | San Luis Potosí</p>
+    
+                        <h3>Universidad</h3>
+                            <p>2022 - Actualidad</p>
+                            <p>Ingeniería en Diseño Multimedia | 4to semestre</p>
+                            <p>Universidad Autónoma del Carmen (UNACAR) | Ciudad del Carmen</p>
+                </div>
+                <div class="datos-1">
+                    <div class="datos-txt">
+                        <span>Experiencia Laboral</span>
+                        <h3>Diseñador Gráfico</h3>
+                           <p>Tienda Pesitos Chic, Ciudad del Carmen</p>
+                            <p>Fecha: 2023 - 20XX</p>
+                            <ul>
+                                <li>Creación en diseño de Página Web.</li>
+                                <li>Administradora de Página de Facebook y publicidad</li>
+                            </ul>
+    
+                        <h3>Diseñador Gráfico</h3>
+                            <p>Empresa Deg, Ciudad del Carmen</p>
+                            <p>Fecha: 2023 - 20XX</p>
+                            <ul>
+                                <li>Creación en diseño de Página Web y mantenimiento de la misma</li>
+                            </ul>
+    
+                            <h3>Diseñador Gráfico</h3>
+                            <p>Empresa GTSC, Ciudad del Carmen</p>
+                            <p>Fecha: 2022 - 20XX</p>
+                            <ul>
+                            <li>Creación en diseño de Página Web.</li>
+                            <li>Administradora de Página de Facebook y cuenta de Instagram.</li>
+                            </ul>
+            </div>
 
-    <footer>
-        <p>Contacto: jacqueline_v_fuentes@hotmail.com</p>
-            <p>&copy; 2024 Mi Curriculum Vitae</p>
+            <div class="datos-1">
+                <div class="datos-txt">
+                    <span>Habilidades</span>
+                         <ul>
+                            <h3>Diseño Gráfico</h3>
+                            <li>Adobe Photoshop, Illustrator, InDesign</li>
+                            <h3>Diseño Web</h3>
+                            <li>HTML, CSS</li>
+                            <h3>Edición de Video</h3>
+                            <li>Filmora, Clipchamp</li>
+                            <h3>Ilustración Digital</h3>
+                            <li>Tabletas gráficas, creatividad en personajes</li>
+                            <h3>Animación 2D</h3>
+                            <li>Krita, Ibis PaintX Blender</li>
+                            <h3>Escritor</h3>
+                        </ul>
+            </div>
+
+            <div class="datos-1">
+                <div class="datos-txt">
+                    <span>Idiomas</span>
+                    <ul>
+                        <li>Inglés - Intermedio</li>
+                        <li>Español - Lengua Nativa</li>
+                    </ul>
+        </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="link">
+            <h3>&copy; 2024 Mi Curriculum Vitae</h3> 
+        </div>
+        
     </footer>
 </body>
 </html>
